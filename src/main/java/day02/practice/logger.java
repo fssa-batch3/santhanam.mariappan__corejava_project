@@ -36,6 +36,15 @@ public class logger {
 		
 		System.out.println("ERROR: " + num );
 	}
+	   
+	    public static void main(String[] args) {
+			error(10);
+			error("error");
+			debug(10);
+			info("information");
+			info(100);
+			
+		}
 	
 	// Similarly write overloaded methods for error and info.
 }

@@ -11,10 +11,12 @@ public class User {
 	public int getId() {
 		return id;
 	}
+	
 
 	public void setId(int id) {
 		this.id = id;
 	}
+	
 
 	public String getPassword() {
 		return password;
@@ -34,8 +36,7 @@ public class User {
 
 	private String password;
 	private String emailId;
-	
-	
+
 	public static void main(String[] args) {
 		User obj = new User();
 		obj.setId(20);
@@ -47,5 +48,3 @@ public class User {
 	}
 
 }
-
-
