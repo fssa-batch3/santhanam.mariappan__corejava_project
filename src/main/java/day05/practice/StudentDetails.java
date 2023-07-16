@@ -42,7 +42,7 @@ class Student {
 public class StudentDetails {
 	public static void main(String[] args) {
 		Department depart=new Department("FSSA", 99);
-		Student std=new Student("ramesh", 99, depart);
+		Student std=new Student("Santhu", 3, depart);
 		std.getStudent();
 	}
 

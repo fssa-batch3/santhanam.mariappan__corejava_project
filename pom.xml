@@ -9,4 +9,11 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.fssa.bharu</groupId>
+  		<artifactId>first-mvn-proj-bharu</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
