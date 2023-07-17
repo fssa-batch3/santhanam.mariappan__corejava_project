@@ -13,12 +13,13 @@ public class SetBulkOperationsDemo {
 		s1.add(2);
 		s1.add(3);
 		s1.add(4);
+		//s1 -->1,2,3,4
 		
 		Set<Integer> s2 = new HashSet<Integer> ();
 		s2.add(1);
 		s2.add(2);
 		s2.add(3);
-		
+		//s2 -->1,2,3
 		
 		Set<Integer> union = new HashSet<Integer>(s1);
 		union.addAll(s2);
