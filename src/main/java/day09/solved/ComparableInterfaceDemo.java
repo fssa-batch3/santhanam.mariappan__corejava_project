@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-
 class Account implements Comparable<Account> {
 
 	private String accNo;
@@ -79,8 +78,8 @@ public class ComparableInterfaceDemo {
 		System.out.println(list);
 
 		Collections.sort(list);
-		
-		//Printing numbers sorted by balance
+
+		// Printing numbers sorted by balance
 		System.out.println(list);
 
 	}
