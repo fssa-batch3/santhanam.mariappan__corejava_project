@@ -53,7 +53,7 @@ public class duplicateTask {
 		String nameregex = "^[a-zA-Z]{2,200}$";
 		Pattern pattern = Pattern.compile(nameregex);
 		Matcher matcher = pattern.matcher(name);
-		Boolean isMatch = matcher.matches();
+		boolean isMatch = matcher.matches();
 
 
 
@@ -65,6 +65,8 @@ public class duplicateTask {
 
 		
 	}
+	
+	
 	public static boolean  validateTaskDate(LocalDate deadline)throws IllegalArgumentException {
 		LocalDate currentDate = LocalDate.now();
 		if(deadline==null) {
